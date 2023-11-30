@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  font-family: "Lato", sans-serif;
+}
+
+/* ---- CARD ---- */
+.card {
+  background: #131c6b;
+  border-radius: 7px;
+  width: 100%;
+  max-width: 450px;
+  margin: 1rem;
+  opacity: 1;
+}
+
+/* HEADER */
+.card header {
+  padding: 13px 11px;
+  border-bottom: 1px solid #fff;
+}
+
+.card header h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+/* INFOS */
+.card .info_weather .infos {
+  margin: 2rem 0;
+}
+
+.card .info_weather .infos .city {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.card .info_weather .infos .temp {
+  font-size: 6rem;
+  text-align: center;
+  font-family: "Vina Sans", sans-serif;
+  color: #fff;
+}
+
+.card .info_weather .infos .temp {
+  text-align: center;
+}
+
+.card .info_weather .infos .info_img {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.card .info_weather .infos .info_img .description {
+  text-transform: capitalize;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  padding: 13px 11px;
+  border-top: 1px solid #fff;
+}
+
+footer p {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  font-weight: 500;
+  color: #fff;
+}
+
+footer .info_left {
+  padding: 10px 0;
+}
